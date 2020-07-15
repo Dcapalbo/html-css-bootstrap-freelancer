@@ -4,13 +4,35 @@
  padding: 0;
  }
 
+.[col] {
+
+}
 .clearfix::after {
  content: "";
  display: table;
  clear: both;
  }
 
-.container {
- max-width: 1170px;
- margin: 0 auro;
- }
+header {
+  position: relative;
+}
+
+.header_top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  height: 70px;
+  width: 100%;
+  background-color: #008B8B;
+}
+
+.menu-inline li {
+  display: inline;
+  list-style: none;
+}
+
+.bg_green {
+  background-color: #3CB371;
+  height: 400px;
+}
