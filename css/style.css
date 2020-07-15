@@ -13,6 +13,23 @@
  clear: both;
  }
 
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+}
+
+li {
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+}
+
 header {
   position: relative;
 }
@@ -24,7 +41,7 @@ header {
   z-index: 1;
   height: 70px;
   width: 100%;
-  background-color: #008B8B;
+  background-color: #2C3E50;
 }
 
 .menu-inline li {
@@ -33,6 +50,10 @@ header {
 }
 
 .bg_green {
-  background-color: #3CB371;
+  background-color: #19BC9C;
   height: 400px;
+}
+
+.textm-top {
+  padding-top: 15%;
 }
