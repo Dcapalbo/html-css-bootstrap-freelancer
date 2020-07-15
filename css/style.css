@@ -4,9 +4,7 @@
  padding: 0;
  }
 
-.[col] {
 
-}
 .clearfix::after {
  content: "";
  display: table;
@@ -18,24 +16,8 @@ h2 {
   color: #fff;
 }
 
-p {
-  text-align: center;
-  color: #fff;
-  line-height: 70px;
-}
-
-li {
-  text-align: center;
-  color: #fff;
-  line-height: 70px;
-}
-
-header {
-  position: relative;
-}
-
 .header_top {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   z-index: 1;
@@ -47,8 +29,19 @@ header {
 .menu-inline li {
   display: inline;
   list-style: none;
+  text-align: center;
+  color: #fff;
 }
 
+.navbar p {
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron div p {
+  text-align: center;
+  color: #fff;
+}
 .bg_green {
   background-color: #19BC9C;
   height: 400px;
@@ -56,4 +49,23 @@ header {
 
 .textm-top {
   padding-top: 15%;
+}
+
+.first_section {
+  background-color: #fff;
+  height: 500px;
+  width: 100%;
+}
+.border {
+  margin-top: 1%;
+  margin-left: 2.5%;
+  border-radius: 10px;
+  width: 30%;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+section .container h2 {
+  color: #000;
+  border-bottom: 1px solid #000;
 }
