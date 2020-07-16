@@ -4,7 +4,10 @@
  padding: 0;
  }
 
-
+.wrapper {
+  width: 50%;
+  margin: auto;
+}
 .clearfix::after {
  content: "";
  display: table;
@@ -26,7 +29,7 @@ h2 {
   background-color: #2C3E50;
   float: right;
   margin-top: 1%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -40,6 +43,11 @@ h2 {
   background-color: #2C3E50;
 }
 
+.bg_green {
+  background-color: #19BC9C;
+  height: 400px;
+}
+
 .menu-inline {
   margin-top: 5%;
   text-align: center;
@@ -49,21 +57,19 @@ h2 {
   display: inline;
   list-style: none;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .navbar p {
   text-align: center;
   color: #fff;
   margin-top: 5%;
+  text-transform: uppercase;
 }
 
 .jumbotron div p {
   text-align: center;
   color: #fff;
-}
-.bg_green {
-  background-color: #19BC9C;
-  height: 400px;
 }
 
 .textm-top {
@@ -105,7 +111,7 @@ h2 {
   border-bottom: 1px solid #fff;
 }
 
-.second_section .container p {
+.second_section p {
   color: #fff;
 }
 
@@ -115,18 +121,18 @@ h2 {
   margin-bottom: 2%;
 }
 
-.third_section .container h2 {
+.third_section .container-fluid h2 {
   color: #000;
   border-bottom: 1px solid #000;
 }
 
-.third_section .container p {
+.third_section .container-fluid p {
   margin-top: 3%;
   color: #000;
   border-bottom: 1px solid #808080;
 }
 
-.third_section .container button{
+.third_section .container-fluid button{
   margin-top: 2%;
   color: #fff;
   background-color: #19BC9C;
@@ -144,7 +150,6 @@ h2 {
 .first_footer_section ul li {
   list-style: none;
   display: inline;
-  margin-left: 25px;
   padding-left: 30px;
   color: #fff;
 }
