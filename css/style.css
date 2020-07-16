@@ -38,9 +38,11 @@ img {
 .text-align {
   text-align: center;
 }
+
 .padding {
   padding: 0px 10px;
 }
+
 .padding_top {
   padding-top: 30px;
 }
@@ -205,7 +207,7 @@ img {
   width: 100%;
 }
 
-.third_section .container-fluid h2 {
+.third_section h2 {
   color: #000;
 }
 
@@ -214,6 +216,11 @@ img {
   color: #000;
   line-height: 40px;
 }
+
+#black_star {
+  color: #000;
+}
+
 
 .third_section .container-fluid p {
   border-bottom: 1px solid #DCDCDC;
