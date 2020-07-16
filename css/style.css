@@ -35,6 +35,42 @@ img {
   border: 1px solid #000;
 }
 
+.hr_1_white {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 7%;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.hr_2_white {
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 7%;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.hr_1_black {
+  color: #000;
+  border-radius: 5px;
+  background-color: #000;
+  width: 7%;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.hr_2_black {
+  color: #000;
+  border-radius: 5px;
+  background-color: #000;
+  width: 7%;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
 .text-align {
   text-align: center;
 }
@@ -141,26 +177,12 @@ img {
   width: 100%;
 }
 
-.hr_1_white {
-  color: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  padding-bottom: 15px;
-}
-
-.hr_2_white {
-  color: #fff;
-  border-radius: 5px;
-  display: inline-block;
-  padding-bottom: 15px;
-}
-
 .fa-star {
   color: #fff;
   font-size: 30px;
   padding-left: 10px;
   padding-right: 10px;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 /* fine jumbotron */
@@ -188,6 +210,12 @@ img {
 .bg_darkgreen {
   background-color: #19BC9C;
   width: 100%;
+}
+
+.fa-download {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 10px;
 }
 
 .second_section .btn {
