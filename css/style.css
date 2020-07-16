@@ -1,9 +1,13 @@
+/* basic value */
 * {
  box-sizing: border-box;
  margin: 0;
  padding: 0;
  }
 
+body {
+  font: "lato";
+}
 .wrapper {
   width: 50%;
   margin: auto;
@@ -19,8 +23,57 @@ h2 {
   color: #fff;
 }
 
-.col-xs-12-none {
-  display: none;
+.text-align {
+  text-align: center;
+}
+
+.padding_top {
+  padding-top: 30px;
+}
+
+.padding_bottom {
+  padding-bottom: 30px;
+}
+
+.padding_top {
+  padding-bottom: 30px;
+}
+
+.padding_left {
+  padding-bottom: 30px;
+}
+
+.padding_right {
+  padding-bottom: 30px;
+}
+
+.margin_bottom {
+  padding-bottom: 30px;
+}
+
+.margin_top {
+  padding-bottom: 30px;
+}
+
+.margin_left {
+  padding-bottom: 30px;
+}
+
+.margin_right {
+  padding-bottom: 30px;
+}
+
+/* style */
+/* header top */
+
+.header_top {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  height: 70px;
+  width: 100%;
+  background-color: #2C3E50;
 }
 
 .fa-bars {
@@ -33,19 +86,9 @@ h2 {
   padding: 5px 10px;
   border-radius: 5px;
 }
-.header_top {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-  height: 70px;
-  width: 100%;
-  background-color: #2C3E50;
-}
 
-.bg_green {
+.bg_lightgreen {
   background-color: #19BC9C;
-  height: 400px;
 }
 
 .menu-inline {
@@ -67,6 +110,8 @@ h2 {
   text-transform: uppercase;
 }
 
+/* jumbotron */
+
 .jumbotron div p {
   text-align: center;
   color: #fff;
@@ -83,6 +128,9 @@ h2 {
   border: 1px solid #000;
 }
 
+/* fine jumbotron */
+/* inizio main-prima sezione */
+
 .first_section {
   background-color: #fff;
   width: 100%;
@@ -94,17 +142,17 @@ h2 {
   border-bottom: 1px solid #000;
 }
 
-.second_section {
+/* seconda sezione */
+
+.bg_darkgreen {
   background-color: #19BC9C;
   width: 100%;
-  height: 250px;
 }
 
 .second_section .btn {
   color: #fff;
   background-color: #19BC9C;
   border: 2px solid #fff;
-  margin-left: 45%;
 }
 
 .second_section .container h2 {
@@ -114,6 +162,8 @@ h2 {
 .second_section p {
   color: #fff;
 }
+
+/* terza sezione */
 
 .third_section {
   background-color: #fff;
@@ -141,12 +191,14 @@ h2 {
   border: 2px solid #19BC9C;
 }
 
-.first_footer_section {
+/* fine main-terza sezione */
+/* inizio footer-prima sezione */
+
+.bg_lightblue {
   background-color: #475F77;
   width: 100%;
-  padding-bottom: 3%;
-}
 
+}
 .first_footer_section ul li {
   list-style: none;
   display: inline;
@@ -165,10 +217,12 @@ h2 {
   text-align: center;
 }
 
-.second_footer_section {
+/* fine prima sezione */
+/* inizio seconda sezione */
+
+.bg_darkblue {
   background-color: #2C3E50;
   width: 100%;
-  height: 100px;
 }
 
 .second_footer_section p {
@@ -177,6 +231,4 @@ h2 {
   margin-top: 4%;
 }
 
-@media screen and (min-width 768px) {
-
-}
+/* fine footer */
