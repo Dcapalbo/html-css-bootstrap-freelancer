@@ -40,8 +40,9 @@ img {
   border-radius: 5px;
   background-color: #fff;
   width: 7%;
+  height: 5px;
   display: inline-block;
-  padding-bottom: 15px;
+  vertical-align: super;
 }
 
 .hr_2_white {
@@ -49,8 +50,10 @@ img {
   border-radius: 5px;
   background-color: #fff;
   width: 7%;
+  height: 5px;
   display: inline-block;
-  padding-bottom: 15px;
+  vertical-align: super;
+
 }
 
 .hr_1_black {
@@ -58,8 +61,10 @@ img {
   border-radius: 5px;
   background-color: #000;
   width: 7%;
+  height: 5px;
   display: inline-block;
-  padding-bottom: 15px;
+  vertical-align: super;
+
 }
 
 .hr_2_black {
@@ -67,8 +72,10 @@ img {
   border-radius: 5px;
   background-color: #000;
   width: 7%;
+  height: 5px;
   display: inline-block;
-  padding-bottom: 15px;
+  vertical-align: super;
+
 }
 
 .text-align {
