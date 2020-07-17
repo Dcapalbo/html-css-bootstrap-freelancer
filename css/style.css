@@ -16,9 +16,9 @@
 
 h2 {
   text-align: center;
-  color: #fff;
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 img {
@@ -128,24 +128,29 @@ img {
   top: 0px;
   left: 0px;
   z-index: 1;
-  height: 70px;
+  height: 80px;
   width: 100%;
+  line-height: 80px;
   background-color: #2C3E50;
+}
+.header_top .menu_button {
+  margin-top: 2%;
 }
 
 .fa-bars {
   color: #fff;
-  font-size: 20px;
-  background-color: #2C3E50;
+  font-size: 25px;
+  background-color: #19BC9C;
   float: right;
   border: 1px solid #fff;
-  padding: 5px 8px;
+  padding: 8px 10px;
   border-radius: 5px;
 }
 
-.menu-inline {
-  margin-top: 4%;
-  text-align: center;
+#Menu {
+  float: left;
+  margin-right: 15px;
+  text-transform: uppercase;
 }
 
 .menu-inline li {
@@ -153,22 +158,21 @@ img {
   list-style: none;
   color: #fff;
   text-transform: uppercase;
-  padding-left: 15px;
-  font-size: 1.8rem;
+  padding-left: 20px;
+  font-size: 2.0rem;
+  font-weight: bold;
 }
 
-.navbar p {
-  text-align: center;
+.navbar div p {
+  font-size: 30px;
   color: #fff;
-  font-size: 1.8rem;
-  margin-top: 4%;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* jumbotron */
 
 .jumbotron div p {
-  text-align: center;
   color: #fff;
 }
 
@@ -176,7 +180,9 @@ img {
   background-color: #19BC9C;
   width: 100%;
 }
-
+.jumbotron .row h2 {
+  color: #fff;
+}
 .fa-star {
   color: #fff;
   font-size: 30px;
@@ -224,6 +230,9 @@ img {
   border: 2px solid #fff;
 }
 
+.second_section h2 {
+  color: #fff;
+}
 .second_section p {
   color: #fff;
 }
@@ -274,12 +283,17 @@ img {
   width: 100%;
 
 }
-.first_footer_section ul li {
+
+.social_menu {
   list-style: none;
-  display: inline;
-  margin-right: 40px;
-  padding-left: 3px;
-  color: #fff;
+}
+.social_menu li {
+  display: inline-block;
+  background-color: #fff;
+  height: 35px;
+  width: 35px;
+  border-radius: 150%;
+  margin-left: 20px;
 }
 
 .first_footer_section h3 {
@@ -306,3 +320,21 @@ img {
 }
 
 /* fine footer */
+
+/* Responsive */
+
+@media screen and (max-width:768px) {
+  .navbar div p {
+    font-size: 15px;
+  }
+
+  .fa-bars {
+    font-size: 15px;
+    margin-top: 2%;
+  }
+
+  #Menu {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+}
